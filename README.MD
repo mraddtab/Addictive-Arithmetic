@@ -13,6 +13,13 @@ The application also includes a user authentication system that allows users to 
   <li> Responsive design for mobile and desktop.</li>
 </ul>
 
+<h1> Screenshots </h1>
+<li><img src = "screenshots/game.png"></li>
+<li><img src = "screenshots/home.png"></li>
+<li><img src = "screenshots/login.png"></li>
+<li><img src = "screenshots/profile.png"></li>
+<li><img src = "screenshots/registration.png"></li>
+
 <h1>Technologies Used </h1>
 <ul>
   <li> Angular 12</li>
