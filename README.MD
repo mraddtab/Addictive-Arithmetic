@@ -1,11 +1,11 @@
 <h1>Addictive Arithmetic</h1>
-Addictive Arithmetic is a web application designed to improve mental arithmetic skills through various exercises. The app offers three modes of play: Addition, Subtraction, and Multiplication, and allows users to choose the difficulty level of the questions.
+Addictive Arithmetic is a web application designed to improve mental arithmetic skills through various exercises. The app offers three modes of play: Addition& Subtraction,  Multiplication & Divison, and Mixed Operations, and allows users to choose the difficulty level of the questions.
 
 The application also includes a user authentication system that allows users to create accounts, track their progress, and compete with other users on a leaderboard.
 
 <h1>Features </h1>
 <ul>
-  <li> Three modes of play: Addition & Subtraction, Multiplication * Divison, and Mixed Operations </li>
+  <li> Three modes of play: Addition & Subtraction, Multiplication & Divison, and Mixed Operations </li>
   <li> Three Difficulty levels for each mode. </li>
   <li> User authentication system.</li>
   <li>Progress tracking for individual users. </li>
