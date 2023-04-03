@@ -1,9 +1,9 @@
-#Addictive Arithmetic
+<h1>Addictive Arithmetic</h1>
 Addictive Arithmetic is a web application designed to improve mental arithmetic skills through various exercises. The app offers three modes of play: Addition, Subtraction, and Multiplication, and allows users to choose the difficulty level of the questions.
 
 The application also includes a user authentication system that allows users to create accounts, track their progress, and compete with other users on a leaderboard.
 
-#Features
+<h1>Features </h1>
 * Three modes of play: Addition & Subtraction, Multiplication * Divison, and Mixed Operations
 * Three Difficulty levels for each mode.
 * User authentication system.
@@ -11,14 +11,14 @@ The application also includes a user authentication system that allows users to 
 * Nine badges to try and achieve.
 * Responsive design for mobile and desktop.
 
-#Technologies Used
+<h1>Technologies Used </h1>
 * Angular 12
 * TypeScript
 * Node.js
 * Express.js
 * PostgreSQL
 
-#How to get started locally
+How to get started locally
 1. Open up a terminal
 2. Navigate to /backend in the terminal "cd "Math Quiz"/backend"
 3. Type in and enter "npm i"
