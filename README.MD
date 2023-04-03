@@ -14,18 +14,22 @@ The application also includes a user authentication system that allows users to 
 </ul>
 
 <h1>Technologies Used </h1>
-<li> Angular 12</li>
-<li>TypeScript</li>
-<li> Node.js</li>
-<li>Express.js</li>
-<li>PostgreSQL</li>
+<ul>
+  <li> Angular 12</li>
+  <li>TypeScript</li>
+  <li> Node.js</li>
+  <li>Express.js</li>
+  <li>PostgreSQL</li>
+</ul>
 
 <h1> How to get started locally </h1>
-1. Open up a terminal
-2. Navigate to /backend in the terminal "cd "Math Quiz"/backend"
-3. Type in and enter "npm i"
-4. Type in "node server.js".
-5. Leave the first terminal running, and open up a second terminal.
-6. Navigate to /frontend in the second terminal.
-7. Type in "npm i"
-8. Type in "ng serve"
+<ol>
+  <li> Open up a terminal </li> 
+  <li>  Navigate to /backend in the terminal "cd "Math Quiz"/backend" </li> 
+  <li> Type in and enter "npm i" </li> 
+  <li> Type in "node server.js". </li> 
+  <li> Leave the first terminal running, and open up a second terminal. </li> 
+  <li> Navigate to /frontend in the second terminal. </li> 
+  <li> Type in "npm i" </li> 
+  <li> Type in "ng serve" </li> 
+</ol>
