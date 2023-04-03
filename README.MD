@@ -20,7 +20,7 @@ The application also includes a user authentication system that allows users to 
 <li>Express.js</li>
 <li>PostgreSQL</li>
 
-How to get started locally
+<h1> How to get started locally </h1>
 1. Open up a terminal
 2. Navigate to /backend in the terminal "cd "Math Quiz"/backend"
 3. Type in and enter "npm i"
