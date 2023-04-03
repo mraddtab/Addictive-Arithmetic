@@ -4,19 +4,21 @@ Addictive Arithmetic is a web application designed to improve mental arithmetic 
 The application also includes a user authentication system that allows users to create accounts, track their progress, and compete with other users on a leaderboard.
 
 <h1>Features </h1>
-* Three modes of play: Addition & Subtraction, Multiplication * Divison, and Mixed Operations
-* Three Difficulty levels for each mode.
-* User authentication system.
-* Progress tracking for individual users.
-* Nine badges to try and achieve.
-* Responsive design for mobile and desktop.
+<ul>
+  <li> Three modes of play: Addition & Subtraction, Multiplication * Divison, and Mixed Operations </li>
+  <li> Three Difficulty levels for each mode. </li>
+  <li> User authentication system.</li>
+  <li>Progress tracking for individual users. </li>
+  <li>Nine badges to try and achieve.</li>
+  <li> Responsive design for mobile and desktop.</li>
+</ul>
 
 <h1>Technologies Used </h1>
-* Angular 12
-* TypeScript
-* Node.js
-* Express.js
-* PostgreSQL
+<li> Angular 12</li>
+<li>TypeScript</li>
+<li> Node.js</li>
+<li>Express.js</li>
+<li>PostgreSQL</li>
 
 How to get started locally
 1. Open up a terminal
