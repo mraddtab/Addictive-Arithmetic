@@ -1,0 +1,82 @@
+Test Case: User login functionality
+
+Steps:
+Open the application in a web browser.
+Navigate to the login page localhost:4200/login.
+Enter a valid username and password.
+Click on the Login button.
+Verify that the user is redirected to the home page localhost:4200/login after successful login.
+Close the brower, and reopen the browser.
+Renavigate back to the home page localhost:4200/home.
+Verify user remains logged in.
+
+Test Case: User registration functionality
+Steps:
+Open the application in a web browser.
+Navigate to the registration page. localhost:4200/register
+Enter a valid username and password.
+Click on the Register button.
+Verify that the user is redirected to the login page localhost:4200/login after successful registration.
+
+Test Case: Addition and Subtraction game mode
+Steps:
+Open the application in a web browser.
+Navigate to the game mode selection page localhost:4200/home.
+Select the Addition and Subtraction game mode.
+Click on the Start button.
+Verify that the game starts with an addition or subtraction problem.
+Enter a valid answer and click the Submit button.
+Verify that the game progresses to the next problem.
+
+Test Case: Multiplication and Division game mode
+Steps:
+Open the application in a web browser.
+Navigate to the game mode selection page localhost:4200/home.
+Select the Multiplication and Division game mode.
+Choose an appropriate difficulty level.
+Click on the Start button.
+Verify that the game starts with a multiplication or division problem.
+Enter a valid answer and click the Submit button.
+Verify that the game progresses to the next problem.
+
+Test Case: Mixed Operations game mode
+Steps:
+Open the application in a web browser.
+Navigate to the game mode selection page localhost:4200/home.
+Select the Mixed Operations game mode.
+Choose an appropriate difficulty level.
+Click on the Start button.
+Verify that the game starts with a random arithmetic problem.
+Enter a valid answer and click the Submit button.
+Verify that the game progresses to the next problem.
+
+Test Case: Progress tracking functionality
+Steps:
+Open the application in a web browser.
+Login to the application using a valid user account.
+Navigate to the user profile page.
+Verify that the user's progress is displayed correctly.
+Play a few games.
+Refresh the page.
+Verify that the user's progress is still displayed correctly.
+
+Test Case: Badge achievement functionality
+Steps:
+Open the application in a web browser.
+Login to the application using a valid user account.
+Navigate to the user profile page localhost:4200/profile.
+Verify that the user's badge progress is displayed correctly.
+Play a few games and try to achieve a badge.
+Refresh the page.
+Verify that the user's badge progress is still displayed correctly.
+
+Test Case: Protected Routes
+Steps:
+Open the application in a web browser.
+If already signed in, log out.
+Navigate to localhost:4200/home in the browser manually.
+Verify a redirection to the login page localhost:4200/login
+Navigate to localhost:4200/profile in the browser manually.
+Verify a redirection to the login page localhost:4200/login
+Navigate to localhost:4200/game in the browser manually.
+Verify a redirection to the login page localhost:4200/login
