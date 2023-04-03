@@ -1,0 +1,109 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.question-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 60%;
+}
+
+.mode-one {
+    background-color: #9370B7;
+}
+
+.mode-two  {
+    background-color: #E0B544;
+}
+
+.mode-three{
+    background-color: #3127AE;
+}
+
+.streak-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.streak-logo-container {
+    margin-right: 10px;
+}
+
+.current-streak-container {
+    display: flex;
+    align-items: center;
+}
+
+.streak-logo {
+    width: 50px;
+    height: auto;
+}
+
+.current-streak {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.timer {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.timer h3 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.input-container {
+    margin-top: 50px;
+}
+
+.input-container input {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.input-container button {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0052a3;
+}
+
+.question {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    /* identical to box height */
+    text-align: center;
+}   

@@ -1,0 +1,10 @@
+<nav class="navbar">
+    <div class="logo-container">
+        <img class="logo" src="/assets/logo.png" alt="Website logo">
+        <p class="website-name" (click)="navigateHome($event)">Addictive Arithmetic</p>
+    </div>
+    <div class="navbar-links">
+        <p class="navbar-link" href="#" (click)="navigateProfile($event)">{{ currentUser }}</p>
+        <p class="navbar-link" href="#" (click)="logOut($event)">Logout</p>
+    </div>
+</nav>

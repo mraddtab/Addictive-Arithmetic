@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+
+<div class="game-container">
+    <div class="streak-container">
+        <div class="streak-logo-container">
+            <img class="streak-logo" src="/assets/badge7.png" alt="">
+        </div>
+        <p class="current-streak">{{ currentStreak }}</p>
+    </div>
+    <div class="question-container" [ngClass]="{'mode-one': mode === 1, 'mode-two': mode === 2, 'mode-three': mode === 3}">
+        <div class="timer">
+            <h3>{{ timeLeft }}</h3>
+        </div>
+        <h1 class="question">{{ currentQuestion }}</h1>
+    </div>
+
+    <div class="input-container">
+        <input [(ngModel)]="userAnswer" placeholder="Enter your answer">
+        <button (click)="checkAnswer()">Submit</button>
+    </div>
+</div>  

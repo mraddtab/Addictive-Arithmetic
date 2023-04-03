@@ -1,0 +1,58 @@
+<app-navbar></app-navbar>
+<div class="profile-container">
+  <div class="left-section">
+    <div class="user-details">
+      <h1>Welcome, {{ username }}!</h1>
+      <h2>Stats</h2>
+        <div *ngIf="userStats">
+        <p>Questions answered: {{ userStats.questions_answered }}</p>
+        <p>Correct answers: {{ userStats.correct_answers }}</p>
+        <p>Longest streak: {{ userStats.longest_streak }}</p>
+        <p>Accuracy: {{ userStats.accuracy.toFixed(2) }}% </p>
+        </div>
+    </div>
+  </div>
+  <div class="right-section">
+    <h2 class="badge-title">Badges</h2>
+    <div class="badges-container">
+      <div class="badge-grid">
+        <div class="badge" >
+            <img src="/assets/badge1.png" alt="" [ngClass]="{'grayed-out': userStats.correct_answers < 50}">
+            <p>50+ Correct Questions</p>
+        </div>
+        <div class="badge" >
+            <img src="/assets/badge2.png" alt="" [ngClass]="{'grayed-out': userStats.correct_answers < 100}">
+            <p>100+ Correct Questions</p>
+        </div>
+        <div class="badge" >
+            <img src="/assets/badge3.png" alt="" [ngClass]="{'grayed-out': userStats.correct_answers < 200}">
+            <p>200+ Correct Questions</p>
+        </div>
+        <div class="badge">
+          <img src="/assets/badge4.png" alt="" [ngClass]="{'grayed-out': userStats.accuracy < 70}">
+          <p>70% + Accuracy</p>
+        </div>
+        <div class="badge">
+          <img src="/assets/badge5.png" alt="" [ngClass]="{'grayed-out': userStats.accuracy < 80}">
+          <p>80% + Accuracy</p>
+        </div>
+        <div class="badge">
+          <img src="/assets/badge6.png" alt="" [ngClass]="{'grayed-out': userStats.accuracy < 90}">
+          <p>90% + Accuracy</p>
+        </div>
+        <div class="badge">
+          <img src="/assets/badge7.png" alt="" [ngClass]="{'grayed-out': userStats.longest_streak < 15}">
+          <p>15 + Streak</p>
+        </div>
+        <div class="badge">
+          <img src="/assets/badge7.png" alt="" [ngClass]="{'grayed-out': userStats.longest_streak < 30}">
+          <p>30+ Streak</p>
+        </div>
+        <div class="badge">
+          <img src="/assets/badge7.png" alt="" [ngClass]="{'grayed-out': userStats.longest_streak < 50}">
+          <p>50+ Streak</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div class = "container">
+    <div class="left-side">
+        <img src="/assets/logo.png" alt="Site Logo">
+        <h1>Addictive Arithmetic</h1>
+        <p>The fun way to practice math!</p>
+        </div>
+    <div class="right-side">
+        <h2>Register Account</h2>
+        <form (submit)="onSubmit($event)">
+        <label for="username">Username</label>
+        <input type="text"  id="username" name="username" required [(ngModel)]="username">
+        <label for="password1">Password</label>
+        <input type="password1" id="password1" name="password1" required [(ngModel)]="password1">
+        <label for="password2">Confirm Password</label>
+        <input type="password2" id="password2" name="password2" required [(ngModel)]="password2">
+        <a routerLink="/login" class="login-link">Already have an account?</a>
+        <button type="submit">Register</button>
+        </form>
+    </div>
+</div>
